@@ -47,7 +47,7 @@ const PageAbout = props => {
                         <p className="about__text">{nameEditor}</p>
                         <p className="about__text">{_t.textVersion} {__PRODUCT_VERSION__}</p>
                     </div>
-                    {mailCustomer || phoneCustomer ? (
+                    {/* {mailCustomer || phoneCustomer ? (
                         <div className="about__customer">
                             {mailCustomer && mailCustomer.length ? (
                                 <p className="about__text">
@@ -60,8 +60,8 @@ const PageAbout = props => {
                                 </p>
                             ) : null}
                         </div>
-                    ) : null}
-                    {addressCustomer && addressCustomer.length ? (
+                    ) : null} */}
+                    {/* {addressCustomer && addressCustomer.length ? (
                         <div className="about__customer">
                             <p className="about__text">
                                 <Link id="settings-about-address" external={true}>{addressCustomer}</Link>
@@ -85,8 +85,8 @@ const PageAbout = props => {
                                 </p>
                         ) : null}
                         </div>
-                    ) : null}
-                    <div className="about__contacts">
+                    ) : null} */}
+                    {/* <div className="about__contacts">
                         <p className="about__text" id="settings-about-address">
                             {__PUBLISHER_ADDRESS__}
                         </p>
@@ -96,7 +96,7 @@ const PageAbout = props => {
                         <p className="about__text">
                             <Link external={true} target="_blank" href={publisherUrl}>{publisherPrintUrl}</Link>
                         </p>
-                    </div>
+                    </div> */}
                 </Fragment>
             ) : (
                 <Fragment>
@@ -105,7 +105,7 @@ const PageAbout = props => {
                         <p className="about__text">{nameEditor}</p>
                         <p className="about__text">{_t.textVersion} {__PRODUCT_VERSION__}</p>
                     </div>
-                    <div className="about__contacts">
+                    {/* <div className="about__contacts">
                         <p className="about__text" id="settings-about-address">
                             {__PUBLISHER_ADDRESS__}
                         </p>
@@ -115,7 +115,7 @@ const PageAbout = props => {
                         <p className="about__text">
                             <Link id="settings-about-url" external={true} target="_blank" href={publisherUrl}>{publisherPrintUrl}</Link>
                         </p>
-                    </div>
+                    </div> */}
                 </Fragment>
             )}
         </Page>

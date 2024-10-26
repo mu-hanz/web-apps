@@ -900,7 +900,7 @@
             lang: 'en',
             canCoAuthoring: true,
             customization: {
-                about: true,
+                about: false,
                 feedback: false
             }
         }

@@ -345,8 +345,8 @@ define([
 
         disableMenu: function(menu, disable) {
             this.btnSearchBar.setDisabled(false);
-            this.btnAbout.setDisabled(false);
-            this.btnSupport.setDisabled(false);
+            this.btnAbout.setDisabled(true);
+            this.btnSupport.setDisabled(true);
             /** coauthoring begin **/
             this.btnComments.setDisabled(false);
             this.btnChat.setDisabled(false);
@@ -355,6 +355,7 @@ define([
             this.btnThumbnails.setDisabled(false);
             this.setDisabledAllMoreMenuItems(false);
         },
+
 
         showMenu: function(menu, opts, suspendAfter) {
             var re = /^(\w+):?(\w*)$/.exec(menu);
